@@ -7,5 +7,5 @@ export default defineConfig({
   server: {
     host: '0.0.0.0',
   },
-  base: 'https://ester-arruda.github.io/pacaro-tarefas/'
+  base: '/pacaro-tarefas/'
 })
