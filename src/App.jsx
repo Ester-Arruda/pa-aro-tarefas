@@ -19,7 +19,7 @@ export default function App() {
     <HistoryRouter history={history}>
       <Layout>
         <Routes>
-          <Route path="/" element={<ContainerTasks />} />
+          <Route path="/pacaro-tarefas" element={<ContainerTasks />} />
           <Route path="/criar-tarefa" element={<CardCreateTask />} />
           <Route path='/editar-tarefa/:id' element={<CardEditTask />} />
         </Routes>
