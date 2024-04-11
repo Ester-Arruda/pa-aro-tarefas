@@ -7,6 +7,9 @@ export default defineConfig({
   server: {
     host: '0.0.0.0',
   },
-  build: 'vite build',
+  "scripts": {
+    "build": "vite build",
+    "preview": "vite preview"
+  },
   base: '/pacaro-tarefas'
 })
