@@ -1,17 +1,28 @@
-## Running React on Repl.it
+# Pacaro Tarefas
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
+Este é um gerenciador de tarefas construído com React e Vite. Com o Paçaro Tarefas, você pode organizar suas tarefas em três estados: "Para fazer", "Em andamento" e "Pronto". Você pode facilmente adicionar novas tarefas, movê-las entre os estados e excluí-las quando necessário.
 
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
+## Como acessar a aplicação
 
-Using the two in conjunction is one of the fastest ways to build a web app.
+Você pode acessar a aplicação através do seguinte link: [Paçaro Tarefas](https://ester-arruda.github.io/pacaro-tarefas/)
 
-### Getting Started
-- Hit run
-- Edit [App.jsx](#src/App.jsx) and watch it live update!
+## Funcionalidades
 
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the [configuration file](#.replit). Here are the vite docs for [serving production websites](https://vitejs.dev/guide/build.html)
+- Adicionar novas tarefas
+- Mover tarefas entre os estados "Para fazer", "Em andamento" e "Pronto"
+- Excluir tarefas
+- Editar tarefas
 
-### Typescript
+## Tecnologias utilizadas
 
-Just rename any file from `.jsx` to `.tsx`. You can also try our [TypeScript Template](https://replit.com/@replit/React-TypeScript)
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+
+## Como executar localmente
+
+1. Certifique-se de ter o [Node.js](https://nodejs.org/) instalado em sua máquina.
+2. Clone este repositório: `git clone https://github.com/ester-arruda/pacaro-tarefas.git`
+3. Navegue até o diretório do projeto: `cd pacaro-tarefas`
+4. Instale as dependências: `npm install`
+5. Inicie a aplicação: `npm run dev`
+6. Acesse a aplicação em seu navegador em [http://localhost:3000](http://localhost:3000)
