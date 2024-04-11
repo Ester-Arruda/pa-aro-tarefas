@@ -1,4 +1,4 @@
-# Pacaro Tarefas
+# Paçaro Tarefas
 
 Este é um gerenciador de tarefas construído com React e Vite. Com o Paçaro Tarefas, você pode organizar suas tarefas em três estados: "Para fazer", "Em andamento" e "Pronto". Você pode facilmente adicionar novas tarefas, movê-las entre os estados e excluí-las quando necessário.
 
